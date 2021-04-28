@@ -3,7 +3,6 @@
     padding: 0;
   }
   
-  /* box-sizing and font sizing */
   *,
   *::before,
   *::after {
@@ -21,14 +20,12 @@
     }
   }
   
-  /* 980px / 16px = 61.25em */
   @media (max-width: 61.25em) {
     html {
       font-size: 58%;
     }
   }
   
-  /* 460px / 16px = 28.75em */
   @media (max-width: 28.75em) {
     html {
       font-size: 55%;
@@ -56,7 +53,7 @@
   
   h1 {
     font-size: 50px;
-    color: white;
+    color: #fc46aa;
     text-align: center;
   }
   
@@ -82,7 +79,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 1;
   }
   
   .nav-list {
@@ -95,11 +92,18 @@
     font-size: 23px;
     font-weight: 600;
     padding: 10px;
-    color: red;
+    color: #fc46aa;
   }
   
   .nav-list a:hover {
-    background: violet;
+    background: purple;
+  }
+
+  .contacts a:hover {
+    color: pink;
+  }
+  .contact-num a:hover {
+    color: pink;
   }
   
   .wrapper{
@@ -126,8 +130,9 @@
   
   .container-text > p {
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
     color: white;
+    text-align: center;  
   }
   .contact-section {
     padding-top: 60px;
