@@ -1,2 +1,2 @@
 # cv
-https://gabbycool.github.io/cv/
+https://getrudeaturu.github.io/cv/
